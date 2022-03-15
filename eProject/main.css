@@ -1,0 +1,172 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#warp {
+    height: 100%;
+    width: 100%;
+}
+
+#header {
+    height: 95px;
+    width: 100%;
+    background-color: black;
+}
+#header img{height: 100%;
+width: 150px;
+
+}
+#header ul li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 23px;
+    margin-right: 10px;
+}
+#header ul li span{margin-right: 10px;}
+#header ul {
+    display: flex;
+    float: right;
+    
+}
+#header ul li a{
+    color: white;
+}
+#header ul li a:hover{
+    color: red;
+}
+
+#header .hotline{margin-top: 0px;}
+#menu {
+    height: 35px;
+    width: 100%;
+    background-color: rgb(241, 226, 22);
+}
+
+#menu ul li {
+    list-style: none;
+    float: left;
+    line-height: 35px;
+    color: black;
+    padding-left: 30px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu ul li a:hover {
+    text-decoration: underline;
+}
+#menu i{margin-right: 0px;}
+
+.text {
+    width: 200px;
+    height: 25px;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+#menu form {
+    float: right;
+    margin-right: 50px;
+}
+
+.fa-solid {
+    width: 60px;
+    height: 60px;
+}
+
+.search {
+    border: 0.5px solid black;
+    background-color: orange;
+    width: 60px;
+    height: 25px;
+}
+
+
+ #banner {
+    height: 465px;
+    width: 100%;
+    background-color: blue;
+}
+
+#banner img {
+    height: 100%;
+    width: 100%;
+} 
+
+
+
+#content {
+    height: 1000px;
+    width: 80%;
+    margin: auto;
+}
+
+#warp_content {
+    width: 100%;
+    height: 730px;
+    background-color: red;
+}
+
+.tieude {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: red;
+}
+
+.tieude p {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    background-color: red;
+}
+
+.sp1 {
+    width: 303px;
+    height: 330px;
+    background-color: white;
+    border: 1px solid rgb(248, 244, 244);
+    margin-left: 0px;
+    float: left;
+}
+
+.sp_name {
+    text-align: center;
+}
+
+.img1 {
+    width: 240px;
+    height: 240px;
+}
+
+.gia_cu {
+    text-decoration: line-through;
+    text-align: center;
+}
+
+.gia_moi {
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#footer {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(0, 7, 0);
+    color: white;
+    display: flex;
+}
+
+
+
